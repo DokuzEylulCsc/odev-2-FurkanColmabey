@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-    class LisansOgr
+     class LisansOgr:Ogrenci
     {
+        public LisansOgr(int no, string ad, string bolum) : base(no, ad, bolum)
+        {
+
+        }
     }
 }

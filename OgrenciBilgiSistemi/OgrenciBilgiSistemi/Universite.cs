@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-    class Universite
+    internal class Universite
     {
     }
 }

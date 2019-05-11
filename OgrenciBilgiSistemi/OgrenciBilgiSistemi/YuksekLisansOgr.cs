@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-    class YuksekLisansOgr
+     class YuksekLisansOgr:Ogrenci
     {
+        public YuksekLisansOgr(int no, string ad, string bolum) : base(no, ad, bolum)
+        {
+
+        }
     }
 }

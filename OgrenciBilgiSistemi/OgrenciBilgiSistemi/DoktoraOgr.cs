@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-    class DoktoraOgr
+    class DoktoraOgr:Ogrenci
     {
+        public DoktoraOgr(int no, string ad, string bolum):base(no,ad,bolum)
+        {
+
+        }
     }
 }

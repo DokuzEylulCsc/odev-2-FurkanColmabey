@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-    class Sube
+    internal class Sube:Ders
     {
     }
 }
