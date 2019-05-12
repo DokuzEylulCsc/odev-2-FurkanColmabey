@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OgrenciBilgiSistemi
 {
-     class Bolum:Fakülte
+     class Bolum
     {
         public List<Ders> dersler = new List<Ders>();
         private string BolumAdı;

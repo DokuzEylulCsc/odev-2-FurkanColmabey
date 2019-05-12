@@ -8,31 +8,28 @@ namespace OgrenciBilgiSistemi
 {
      abstract class Ogrenci
     {
-        private int OgrenciNo;
-        private string OgrenciAd;
-        private string OgrenciBolum;
+        private int no;
+        private string ad;
+        private string bolum;
 
         public Ogrenci(int no,string ad,string bolum)
         {
-            OgrenciNo = no;
-            OgrenciAd = ad;
-            OgrenciBolum = bolum;
+            this.no = no;
+            this.ad = ad;
+            this.bolum = bolum;
         }
 
-        public int OgrenciNo
+        public int No
         {
-            get => OgrenciNo;
-            set => OgrenciNo = value;
+            get => no;
         }
-        public string OgrenciAd
+        public string Ad
         {
-            get => OgrenciAd;
-            set => OgrenciAd = value;
+            get => ad;
         }
-        public string OgrenciBolum
+        public string Bolum
             {
-            get => OgrenciBolum;
-            set => OgrenciBolum = value;
+            get => bolum;
             }
         
     }

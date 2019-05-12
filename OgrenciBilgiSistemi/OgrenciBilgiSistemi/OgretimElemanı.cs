@@ -8,36 +8,29 @@ namespace OgrenciBilgiSistemi
 {
      class OgretimElemanı
     {
-        private string OgretimElemaniAd;
-        private string OgretimElemanibolum;
+        private string ad;
+        private string bolum;
 
         public OgretimElemanı(string ad,string bolum)
         {
-            OgretimElemanibolum = bolum;
-            OgretimElemaniAd = ad;
+            this.bolum = bolum;
+            this.ad = ad;
         }
         public string OgretimElemaniAd
         {
             get
             {
-                return OgretimElemaniAd;
+                return ad;
             }
-            set
-            {
-                OgretimElemaniAd = value;
-            }
+           
         }
         public string OgretimElemanibolum
         {
             get
             {
-                return OgretimElemanibolum;
+                return bolum;
             }
-            set
-            {
-                OgretimElemanibolum = value;
-            }
-              
+            
         }
     }
 }

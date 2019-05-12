@@ -19,7 +19,7 @@ namespace OgrenciBilgiSistemi
             this.DersKodu = DersKodu;
         }
             
-        public int DersKodu
+        public int dersKodu
         {
             get
             {
@@ -30,7 +30,7 @@ namespace OgrenciBilgiSistemi
                 DersKodu = value;
             }
         }
-        public string DersAdı
+        public string dersAdı
         {
             get
             {
