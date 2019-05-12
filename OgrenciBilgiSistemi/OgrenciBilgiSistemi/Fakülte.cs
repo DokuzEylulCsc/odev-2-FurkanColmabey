@@ -20,6 +20,9 @@ namespace OgrenciBilgiSistemi
         {
             bolumler.Add(bolum);
         }
-
+        public void BolumSil(Bolum bolum)
+        {
+           // bolumler.RemoveAt();
+        }
     }
 }

@@ -16,20 +16,28 @@ namespace OgrenciBilgiSistemi
             BolumAdı = ad;
         }
        
-
-        public string GetBolumadı()
+       public string bolumAdi
         {
-            return GetBolumadı();
+            get
+            {
+                return BolumAdı;
+            }
         }
-        public void SetBolumadı(string value)
+        public string Ders
         {
-            SetBolumadı(value);
+            get
+            {
+                return ders;
+            }
         }
 
         public void DersEkle(Ders dersler)
         {
-           
+          
         }
-        
+        public void DersSil(Ders dersler)
+        {
+
+        }
     }
 }
